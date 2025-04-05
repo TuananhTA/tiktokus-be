@@ -1,4 +1,4 @@
-  GNU nano 4.8                                           Dockerfile                                                     # Sử dụng image OpenJDK để chạy ứng dụng
+ # Sử dụng image OpenJDK để chạy ứng dụng
 FROM openjdk:17-jdk-slim
 
 # Thiết lập thư mục làm việc
