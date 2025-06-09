@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/tiktokUs-0.0.1-SNAPSHOT.jar app.jar
 
 # Mở port 8080
-EXPOSE 8080
+EXPOSE 8081
 
 # Chạy ứng dụng
 ENTRYPOINT ["java", "-jar", "app.jar"]
